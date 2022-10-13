@@ -23,7 +23,7 @@ class Seeker:
         Returns:
             number: The current location,
         """
-        return self.location
+        return self._location
         
     def move_location(self, location):
         """Moves to the given location.
